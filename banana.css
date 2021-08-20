@@ -1,57 +1,87 @@
-body { 
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap'); 
+
+@media screen and (min-width: 1100px) {
+    body { 
+        background-position: 50% 70%;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+         /* background-image: url('minions-2-2-cropped.jpg'); */
+    }
+}
+body{
+    font-weight: 300;
+    font-family: 'Klee One', cursive;
+    margin: auto;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.473)),
+     url('minions-2.jpg');
+    background-position-x: 50%;
+}
+
+h1 { 
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: #5DADEC;
     font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0rem;
 }
 
-.navigation { 
-    height: 4rem;
-    background-color: #FFE700;
-    color: black;
+.footer {
     text-align: center;
-    padding: 1rem;
-}
+    color: rgba(255, 255, 0, 0.788);
+    opacity: 0.8;
 
-.footer { 
-    background-color: #FFE700;
-    color: black;
+}
+.footer h1 { 
+    color: rgba(255, 255, 0, 0.788);
+    font-size: 2rem;
+   padding-top: 1.4rem;
+}
+section { 
+
     text-align: center;
-    padding: 1rem 1rem;
-    border-radius: 1rem 1rem 0rem 0rem;
-    box-shadow: 0px -5px 15px black;
 }
-
-textarea { 
-    width: 80%;
-    height: 10vh; 
+textarea{
+    width: 50%;
+    height: 10vh;
     display: block;
-    margin: 2rem;
+    margin: auto;
     padding: 1rem;
- } 
- #output { 
-     border: 1px;
-     height: 10vh;
-     width: 80%;
-     margin: 1rem;
-     padding: 1rem;
- }
- #btn-translate { 
-     background-color: black;
-     color: #FFE700;
-     padding: 1rem;
-     margin: auto;
-     text-align: center;
-     border-radius: 1rem;
-     font-weight: 500;
-     font-size: larger;
- }
- h1 { 
-     text-align: center;
- }
+    opacity: 0.5;
+    border: none;
+}
  div { 
-     text-align: center;
+     margin-top: 10vh;
+     color: rgba(255, 255, 0, 0.788);
+     font-size: 1.5rem;
+     font-weight: 600;
+     
  }
- .footnote { 
-     font-size: medium;
-     font-weight: 900;
- }
+#output{
+    height: 10vh;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    opacity: 0.5;
+    background-color: white;
+}
+
+#btn-translate{
+background-color: rgba(255, 255, 0, 0.788);
+padding: 0.5rem 1rem;
+margin-top: 1rem;
+text-align: center;
+color: black;
+border-radius: 1rem;
+border: 0px;
+font-weight: 600;
+font-size: larger;
+opacity: 0.8;
+}
+p { 
+    font-size: 1.2rem;
+}
