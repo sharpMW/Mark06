@@ -47,6 +47,7 @@ section {
 }
 textarea{
     width: 50%;
+    font-size: 2rem;
     height: 10vh;
     display: block;
     margin: auto;
@@ -56,13 +57,15 @@ textarea{
 }
  div { 
      margin-top: 10vh;
-     color: rgba(255, 255, 0, 0.788);
-     font-size: 1.5rem;
-     font-weight: 600;
+     color: #5DADEC;;
+     font-size: 3rem;
+     font-weight: 900;
      
  }
 #output{
     height: 10vh;
+    color: black;
+    font-size: 3rem;
     width: 50%;
     margin: auto;
     padding: 1rem;
