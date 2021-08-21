@@ -4,10 +4,8 @@
     body { 
         background-position: 50% 70%;
     }
-}
-@media screen and (max-width: 600px) {
-    body {
-         /* background-image: url('minions-2-2-cropped.jpg'); */
+    #ouput { 
+        font-size: 3rem;
     }
 }
 body{
@@ -65,7 +63,7 @@ textarea{
 #output{
     height: 10vh;
     color: black;
-    font-size: 3rem;
+    font-size: 1.5rem;
     width: 50%;
     margin: auto;
     padding: 1rem;
